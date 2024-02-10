@@ -23,3 +23,6 @@ class TestSearch(unittest.TestCase):
         assert search.duplicate_count_linear(3) == 2
 
     # add more unit tests for binary search below
+
+if __name__ == '__main__':
+    unittest.main()
